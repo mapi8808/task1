@@ -65,46 +65,58 @@ footer {
   background-color: #aaa;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
 header {
   height: 50px;
+  margin-bottom: 50px;
 }
 
 main {
   width: 100%;
-  margin: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 .step-box {
-
-}
-
-.step-box:last-child {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
 
 }
 
 .step-img1 {
-
-}
-
-.step-num {
-
-}
-
-.title {
-
+width: 90%;
+height: 150px;
+background-position: bottom;
+background-size: cover;
+margin: auto;
 }
 
 .step-img2 {
-
+ width: 90%;
+ height: 150px;
+ margin-top: 20px;
+ background-position: bottom;
+ background-size: cover;
+ margin: auto;
 }
 
 .step-img3 {
-
+width: 90%;
+height: 150px;
+margin-top: 20px;
+background-position: bottom;
+background-size: cover;
+margin: auto;
 }
 
 footer {
-  
+height: 50px;
+margin-top: 50px;
 }
 
+.paginacion {
+  margin-bottom: 50px;
+}
 }

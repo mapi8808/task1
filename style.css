@@ -60,9 +60,51 @@ main {
   background-size: cover;
 }
 
-
-
 footer {
   height: 50px;
   background-color: #aaa;
+}
+
+@media screen and (max-width: 768px) {
+header {
+  height: 50px;
+}
+
+main {
+  width: 100%;
+  margin: 50px;
+}
+
+.step-box {
+
+}
+
+.step-box:last-child {
+
+}
+
+.step-img1 {
+
+}
+
+.step-num {
+
+}
+
+.title {
+
+}
+
+.step-img2 {
+
+}
+
+.step-img3 {
+
+}
+
+footer {
+  
+}
+
 }

@@ -80,9 +80,9 @@ main {
 
 .step-box {
 width: 90%;
+margin: 20px 0 20px 0;
 margin-left: auto;
 margin-right: auto;
-
 }
 
 .step-img1 {
@@ -109,6 +109,10 @@ margin-top: 20px;
 background-position: bottom;
 background-size: cover;
 margin: auto;
+}
+
+.step-box:last-child {
+  margin-right: auto;
 }
 
 footer {
